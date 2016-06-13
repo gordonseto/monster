@@ -12,6 +12,8 @@
 		8E8AACF01D0F4A1500CC8158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AACEE1D0F4A1500CC8158 /* Main.storyboard */; };
 		8E8AACF21D0F4A1500CC8158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AACF11D0F4A1500CC8158 /* Assets.xcassets */; };
 		8E8AACF51D0F4A1500CC8158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AACF31D0F4A1500CC8158 /* LaunchScreen.storyboard */; };
+		8E8AACFD1D0F5C2800CC8158 /* dragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AACFC1D0F5C2800CC8158 /* dragImage.swift */; };
+		8E8AACFF1D0F600100CC8158 /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AACFE1D0F600100CC8158 /* MonsterImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8E8AACF11D0F4A1500CC8158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E8AACF41D0F4A1500CC8158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8AACF61D0F4A1500CC8158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8AACFC1D0F5C2800CC8158 /* dragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImage.swift; sourceTree = "<group>"; };
+		8E8AACFE1D0F600100CC8158 /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8E8AACF11D0F4A1500CC8158 /* Assets.xcassets */,
 				8E8AACF31D0F4A1500CC8158 /* LaunchScreen.storyboard */,
 				8E8AACF61D0F4A1500CC8158 /* Info.plist */,
+				8E8AACFC1D0F5C2800CC8158 /* dragImage.swift */,
+				8E8AACFE1D0F600100CC8158 /* MonsterImage.swift */,
 			);
 			path = monster;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8AACFF1D0F600100CC8158 /* MonsterImage.swift in Sources */,
 				8E8AACED1D0F4A1500CC8158 /* ViewController.swift in Sources */,
+				8E8AACFD1D0F5C2800CC8158 /* dragImage.swift in Sources */,
 				8E8AACEB1D0F4A1500CC8158 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gordonseto.monster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -264,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gordonseto.monster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
